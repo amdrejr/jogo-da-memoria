@@ -12,8 +12,6 @@ function PageWinner(winner) {
             playerWinner = 'Player 1' :
             playerWinner = 'Player 2' 
 
-          
-
     return `
         <div class="page-winner">
             <p>${playerWinner}</->

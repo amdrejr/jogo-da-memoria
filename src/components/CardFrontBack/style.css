@@ -17,12 +17,10 @@
     transform: rotateY(180deg);
 }
 
-
 .card-front-back >.card.-back .card-game {
     background-color: var(--color-pink);
     transition: background-color 400ms cubic-bezier(.68,-0.55,.27,1.55)
 }
-
 
 .-active-rotate-card {
     transform: rotateY(180deg);
