@@ -1,0 +1,38 @@
+.page-winner {
+    padding: 30px;
+    margin: 50% 0;
+    background-color: var(--color-pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid var(--color-white);
+}
+
+.page-winner p {
+    font-size: 18px;
+    color: var(--color-white);
+}
+
+.page-winner h1 {
+    font-size: 25px;
+    color: var(--color-green);
+}
+
+.page-winner span {
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+}   
+
+.page-winner button {
+    width: 240px;
+    height: 40px;
+    background-color: var(--color-blue);
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid var(--color-white);
+    font-size: 18px;
+    color: var(--color-white);
+    cursor: pointer;
+}

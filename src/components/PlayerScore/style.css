@@ -1,0 +1,25 @@
+.player-score {
+    background-color: var(--color-white);
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid white;
+    gap: 2px;
+}
+
+.player-point {
+    width: 14px;
+    height: 14px;
+    background-color: var(--color-grey);
+}
+
+.player-score[data-points="1"] > .player-point:first-child {
+    background-color: var(--color-green);
+}
+
+.player-score[data-points="2"] > .player-point:nth-child(-1n+2) {
+    background-color: var(--color-green);
+}
+
+.player-score[data-points="3"] > .player-point {
+    background-color: var(--color-green);
+}

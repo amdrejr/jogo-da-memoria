@@ -1,0 +1,11 @@
+html, body {
+    font-size: 10px;
+    height: 100%;
+}
+
+body {
+    background-color: var(--color-blue);
+    max-width: 590px;
+    margin:  auto;
+    font-family: 'Press Start 2P', cursive;
+}

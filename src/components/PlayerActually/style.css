@@ -1,0 +1,18 @@
+.player-actually {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 32.5%;
+    transform: rotate(90deg);
+    transition: left 600ms cubic-bezier(.67,-0.42,.27,1.42);
+}
+
+.player-actually.-toggle-player {
+    left: 58.5%;
+}
+
+
+.player-actually[-data-currentPlayer="2"] {
+    left: 58.5%;
+}

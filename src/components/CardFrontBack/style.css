@@ -1,0 +1,38 @@
+.card-front-back {
+    --width: 130px;
+    --height: 160px;
+    width: var(--width);
+    height: var(--height);
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 400ms cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.card-front-back > .card {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-front-back > .card.-back {
+    transform: rotateY(180deg);
+}
+
+
+.card-front-back >.card.-back .card-game {
+    background-color: var(--color-pink);
+    transition: background-color 400ms cubic-bezier(.68,-0.55,.27,1.55)
+}
+
+
+.-active-rotate-card {
+    transform: rotateY(180deg);
+} 
+
+.-freeze-card {
+    pointer-events: none;
+    transform: rotateY(180deg);
+}
+
+.card-front-back.-freeze-card >.card.-back .card-game {
+    background-color: var(--color-pink-dark);
+}
