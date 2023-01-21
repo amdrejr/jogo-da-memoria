@@ -1,5 +1,5 @@
 # jogo-da-memoria
- Jogo da Memória feito em em **JavaScript puro**, seguindo a ideia de componetização do React.
+ Jogo da Memória feito em em **JavaScript puro**, seguindo a princípio de componetização do React.
 
 Para rodar, digite -> **npm run dev**
 
