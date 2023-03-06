@@ -10,3 +10,11 @@
 .board-game.-freeze {
     pointer-events: none;
 }
+
+
+@media screen and (max-width: 650px) {
+    .board-game {
+        gap: max(10px, 3.1vw);
+        padding: 1.5vw;
+    }
+}

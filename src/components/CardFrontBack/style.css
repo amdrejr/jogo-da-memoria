@@ -1,8 +1,15 @@
 .card-front-back {
     --width: 130px;
     --height: 160px;
+    --min-width: 91px;
+    --min-height: 112px;
+
     width: var(--width);
     height: var(--height);
+
+    min-width: var(--min-width);
+    min-height: var(--min-height);
+
     position: relative;
     transform-style: preserve-3d;
     transition: transform 400ms cubic-bezier(.68,-0.55,.27,1.55);
@@ -33,4 +40,13 @@
 
 .card-front-back.-freeze-card >.card.-back .card-game {
     background-color: var(--color-pink-dark);
+}
+
+
+@media screen and (max-width: 650px) {
+    .card-front-back {
+        --width: 20vw;
+        --height: 24.6vw;
+
+    }
 }

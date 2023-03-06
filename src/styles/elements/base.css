@@ -8,4 +8,14 @@ body {
     max-width: 590px;
     margin:  auto;
     font-family: 'Press Start 2P', cursive;
+
+    
+}
+
+@media screen and (max-width: 620px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
